@@ -38,7 +38,7 @@ services:
       DAGSTER_POSTGRES_DB: ${DAGSTER_POSTGRES_DB}
       DAGSTER_CURRENT_IMAGE: ${DAGSTER_CURRENT_IMAGE}
     ports:
-      - "3000:3000"
+      - "3080:3000"
     networks:
       - dagster-poc-network
     volumes:
