@@ -66,4 +66,5 @@ services:
 
 networks:
   dagster-poc-network:
+    name: dagster-poc-network
     driver: bridge
